@@ -30,6 +30,13 @@ Proyek ini mengandalkan library Python modern untuk data science:
 - **Visualization**: `matplotlib`, `seaborn`, `folium` (untuk pemetaan interaktif)
 - **Machine Learning**: `scikit-learn` (Random Forest, Gradient Boosting, KMeans, DBSCAN), `xgboost`, `lightgbm`
 
+## 💻 System Requirements (Spesifikasi Minimum)
+Mengingat proyek ini memproses dataset historis gempa yang berjumlah ratusan ribu baris dan menggunakan metode berbasis *ensemble* (XGBoost, Random Forest, LightGBM), disarankan menggunakan spesifikasi minimum berikut:
+- **OS**: Windows, macOS, atau Linux
+- **RAM**: Minimal 8 GB (Direkomendasikan 16 GB agar memori tidak penuh saat memproses df besar dan *training* model)
+- **CPU**: Multi-core processor (Intel Core i5 / AMD Ryzen 5 ke atas sangat disarankan)
+- **Python**: Versi 3.8 ke atas (3.8 - 3.11 direkomendasikan)
+
 ## 🚀 Cara Menjalankan
 
 1. **Clone repository ini:**

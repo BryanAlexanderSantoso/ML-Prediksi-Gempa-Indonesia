@@ -1,0 +1,17 @@
+# Ignore environments
+venv/
+env/
+.env
+
+# Ignore datasets (GitHub has file size limits, better not to push huge CSV/TSVs)
+*.csv
+*.tsv
+
+# Ignore ML models (Pickle files can be large)
+*.pkl
+
+# Generic Python / Jupyter ignores
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
